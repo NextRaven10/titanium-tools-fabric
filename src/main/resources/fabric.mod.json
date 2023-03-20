@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "tiny-tweaks",
+	"version": "${version}",
+	"name": "Tiny Tweaks",
+	"description": "This mod adds many little quality of life changes and tweaks!",
+	"authors": [
+		"\nNext Raven\n"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "ARR",
+	"icon": "assets/tiny-tweaks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.next_raven.tiny_tweaks.TinyTweaksMain"
+		],
+		"client": [
+			"net.next_raven.tiny_tweaks.TinyTweaksClient"
+		]
+	},
+	"mixins": [
+		"tiny-tweaks.mixins.json",
+		{
+			"config": "tiny-tweaks.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.17",
+		"minecraft": "~1.19",
+		"java": ">=17",
+		"fabric": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
