@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "titaniumtools:items/titanium_leggings"
+    "layer0": "titanium-tools:items/titanium_nugget"
   }
 }

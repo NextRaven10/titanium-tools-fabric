@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tiny-tweaks:item/titanium_ingot"
+    "layer0": "titanium-tools:item/titanium_ingot"
   }
 }

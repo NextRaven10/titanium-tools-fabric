@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "titaniumtools:items/titanium_sword"
+    "layer0": "titanium-tools:items/titanium_axe"
   }
 }

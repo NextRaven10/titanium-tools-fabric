@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "titaniumtools:block/titanium_block" }
+    "": { "model": "titanium-tools:block/titanium_block" }
   }
 }

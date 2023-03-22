@@ -16,7 +16,7 @@ public class ModBlocks {
 
 
     public static final Block TITANIUM_BLOCK = registerBlock("titanium_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(10f).requiresTool().jumpVelocityMultiplier(10f)), ModItemGroup.Titanium);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(10f).requiresTool()), ModItemGroup.Titanium);
 
 
 
