@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "tiny-tweaks",
+	"id": "titanium-tools",
 	"version": "${version}",
-	"name": "Tiny Tweaks",
-	"description": "This mod adds many little quality of life changes and tweaks!",
+	"name": "Titanium Tools",
+	"description": "This mod adds a new Material called Titanium, rarely found in the End",
 	"authors": [
 		"\nNext Raven\n"
 	],
@@ -12,20 +12,20 @@
 		"sources": ""
 	},
 	"license": "ARR",
-	"icon": "assets/tiny-tweaks/icon.png",
+	"icon": "assets/titanium_tools/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.next_raven.tiny_tweaks.TinyTweaksMain"
+			"net.next_raven.titanium_tools.TitaniumToolsMain"
 		],
 		"client": [
-			"net.next_raven.tiny_tweaks.TinyTweaksClient"
+			"net.next_raven.titanium_tools.TitaniumToolsClient"
 		]
 	},
 	"mixins": [
-		"tiny-tweaks.mixins.json",
+		"titanium_tools.mixins.json",
 		{
-			"config": "tiny-tweaks.client.mixins.json",
+			"config": "titanium_tools.client.mixins.json",
 			"environment": "client"
 		}
 	],
