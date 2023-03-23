@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "titanium-tools:block/titanium_ore" }
+  }
+}
