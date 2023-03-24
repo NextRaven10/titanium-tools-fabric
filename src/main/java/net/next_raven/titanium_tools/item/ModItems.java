@@ -2,12 +2,13 @@ package net.next_raven.titanium_tools.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.next_raven.titanium_tools.TitaniumToolsMain;
+import net.next_raven.titanium_tools.item.custom.CustomAxeItem;
+import net.next_raven.titanium_tools.item.custom.CustomHoeItem;
+import net.next_raven.titanium_tools.item.custom.CustomPickaxeItem;
 
 public class ModItems {
 
@@ -51,19 +52,19 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.Titanium).fireproof()));
 
     public static final Item TITANIUM_PICKAXE = registerItem("titanium_pickaxe",
-            new SwordItem(TitaniumToolMaterial.TITANIUM, 1, -2.8f,
+            new CustomPickaxeItem(TitaniumToolMaterial.TITANIUM, 1, -2.8f,
                     new FabricItemSettings().group(ModItemGroup.Titanium).fireproof()));
 
     public static final Item TITANIUM_AXE = registerItem("titanium_axe",
-            new SwordItem(TitaniumToolMaterial.TITANIUM, 5, -3f,
+            new CustomAxeItem(TitaniumToolMaterial.TITANIUM, 5, -3f,
                     new FabricItemSettings().group(ModItemGroup.Titanium).fireproof()));
 
     public static final Item TITANIUM_SHOVEL = registerItem("titanium_shovel",
-            new SwordItem(TitaniumToolMaterial.TITANIUM, 1, -3f,
+            new ShovelItem(TitaniumToolMaterial.TITANIUM, 1.5f, -3f,
                     new FabricItemSettings().group(ModItemGroup.Titanium).fireproof()));
 
     public static final Item TITANIUM_HOE = registerItem("titanium_hoe",
-            new SwordItem(TitaniumToolMaterial.TITANIUM, -5, 1f,
+            new CustomHoeItem(TitaniumToolMaterial.TITANIUM, -5, 0f,
                     new FabricItemSettings().group(ModItemGroup.Titanium).fireproof()));
 
 
