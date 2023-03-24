@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "t t",
+    "ttt",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "titanium_tools:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "titanium_tools:titanium_chestplate",
+    "count": 1
+  }
+}

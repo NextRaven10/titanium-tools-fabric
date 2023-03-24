@@ -1,0 +1,26 @@
+{
+  "item.titanium_tools.raw_titanium": "Raw Titanium",
+  "item.titanium_tools.titanium_nugget": "Titanium Nugget",
+  "item.titanium_tools.titanium_ingot": "Titanium Ingot",
+
+
+  "item.titanium_tools.titanium_sword": "Titanium Sword",
+  "item.titanium_tools.titanium_pickaxe": "Titanium Pickaxe",
+  "item.titanium_tools.titanium_axe": "Titanium Axe",
+  "item.titanium_tools.titanium_shovel": "Titanium Shovel",
+  "item.titanium_tools.titanium_hoe": "Titanium Hoe",
+
+
+  "item.titanium_tools.titanium_helmet": "Titanium Helmet",
+  "item.titanium_tools.titanium_chestplate": "Titanium Chestplate",
+  "item.titanium_tools.titanium_leggings": "Titanium Leggings",
+  "item.titanium_tools.titanium_boots": "Titanium Boots",
+  "item.titanium_tools.titanium_helmet_w": "Titanium Helmet o' Turtle",
+
+  "block.titanium_tools.titanium_block": "Titanium Block",
+  "block.titanium_tools.titanium_ore": "Titanium Ore",
+  "block.titanium_tools.deepslate_titanium_ore": "Deepslate Titanium Ore",
+
+
+  "itemGroup.titanium_tools.titanium_tools": "Titanium Tools"
+}

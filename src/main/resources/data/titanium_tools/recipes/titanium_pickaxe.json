@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ttt",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "t": {
+      "item": "titanium_tools:titanium_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "titanium_tools:titanium_pickaxe",
+    "count": 1
+  }
+}

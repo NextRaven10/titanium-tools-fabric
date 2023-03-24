@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class TitaniumToolsMain implements ModInitializer {
-	public static final String MOD_ID = "titanium-tools";
+	public static final String MOD_ID = "titanium_tools";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override

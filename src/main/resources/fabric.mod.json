@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "titanium-tools",
+	"id": "titanium_tools",
 	"version": "${version}",
 	"name": "Titanium Tools",
 	"description": "This mod adds a new Material called Titanium, rarely found in the End",

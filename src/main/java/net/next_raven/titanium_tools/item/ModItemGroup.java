@@ -8,5 +8,5 @@ import net.next_raven.titanium_tools.TitaniumToolsMain;
 
 public class ModItemGroup {
     public static final ItemGroup Titanium = FabricItemGroupBuilder.build(
-            new Identifier(TitaniumToolsMain.MOD_ID, "titanium-tools"), () -> new ItemStack(ModItems.TITANIUM_INGOT));
+            new Identifier(TitaniumToolsMain.MOD_ID, "titanium_tools"), () -> new ItemStack(ModItems.TITANIUM_INGOT));
 }

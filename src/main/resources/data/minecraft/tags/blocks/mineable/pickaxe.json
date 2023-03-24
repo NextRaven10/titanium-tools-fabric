@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "titanium_tools:titanium_block",
+    "titanium_tools:titanium_ore",
+    "titanium_tools:deepslate_titanium_ore"
+  ]
+}
