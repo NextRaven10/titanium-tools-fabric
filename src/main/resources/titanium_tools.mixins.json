@@ -1,11 +1,12 @@
 {
-	"required": true,
-	"package": "net.next_raven.titanium_tools.mixin",
-	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-      "MixinClass"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "net.next_raven.titanium_tools.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayerEntityMixin"
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }

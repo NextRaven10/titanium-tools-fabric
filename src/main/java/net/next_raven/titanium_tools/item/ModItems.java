@@ -2,13 +2,22 @@ package net.next_raven.titanium_tools.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
+import net.minecraft.util.ActionResult;
+import net.minecraft.util.Hand;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.world.World;
 import net.next_raven.titanium_tools.TitaniumToolsMain;
 import net.next_raven.titanium_tools.item.custom.CustomAxeItem;
 import net.next_raven.titanium_tools.item.custom.CustomHoeItem;
 import net.next_raven.titanium_tools.item.custom.CustomPickaxeItem;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class ModItems {
 
@@ -27,7 +36,7 @@ public class ModItems {
             new ArmorItem(TitaniumArmorMaterial.TITANIUM, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.Titanium).fireproof()));
 
-    public static final Item TITANIUM_HELMET_W = registerItem("titanium_helmet_w",
+    public static final Item TITANIUM_TURTLE_HELMET = registerItem("titanium_turtle_helmet",
             new ArmorItem(TitaniumArmorMaterial.TITANIUM, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.Titanium).fireproof()));
 

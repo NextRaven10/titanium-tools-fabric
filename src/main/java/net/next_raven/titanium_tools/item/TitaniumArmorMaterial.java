@@ -34,7 +34,7 @@ public enum TitaniumArmorMaterial implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0f, 0.1f, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
      */
 
-    TITANIUM("titanium", 45, new int[]{4, 8, 10, 4}, 30, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0f, 0.1f, () -> Ingredient.ofItems(ModItems.TITANIUM_INGOT));
+    TITANIUM("titanium", 45, new int[]{4, 7, 9, 4}, 30, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0f, 0.1f, () -> Ingredient.ofItems(ModItems.TITANIUM_INGOT));
 
     private static final int[] BASE_DURABILITY;
     private final String name;

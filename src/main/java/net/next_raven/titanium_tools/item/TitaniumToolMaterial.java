@@ -18,7 +18,7 @@ public enum TitaniumToolMaterial implements ToolMaterial {
     GOLD(MiningLevels.WOOD, 32, 12.0f, 0.0f, 22, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
     NETHERITE(MiningLevels.NETHERITE, 2031, 9.0f, 4.0f, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
      */
-    TITANIUM(5, 2500, 10.0f, 5f, 35, () -> Ingredient.ofItems(ModItems.TITANIUM_INGOT));
+    TITANIUM(5, 2500, 12.0f, 5f, 35, () -> Ingredient.ofItems(ModItems.TITANIUM_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;
